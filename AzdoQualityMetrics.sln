@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzdoQualityMetrics", "src/AzdoQualityMetrics/AzdoQualityMetrics.csproj", "{B2B2A001-7EAA-4D4D-8C3D-4B8C1A1F0001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzdoQualityMetrics.Tests", "tests/AzdoQualityMetrics.Tests/AzdoQualityMetrics.Tests.csproj", "{B2B2A001-7EAA-4D4D-8C3D-4B8C1A1F0002}"
+EndProject
+Global
+ GlobalSection(SolutionConfigurationPlatforms) = preSolution
+  Debug|Any CPU = Debug|Any CPU
+  Release|Any CPU = Release|Any CPU
+ EndGlobalSection
+ GlobalSection(ProjectConfigurationPlatforms) = postSolution
+  {B2B2A001-7EAA-4D4D-8C3D-4B8C1A1F0001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {B2B2A001-7EAA-4D4D-8C3D-4B8C1A1F0001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+  {B2B2A001-7EAA-4D4D-8C3D-4B8C1A1F0001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+  {B2B2A001-7EAA-4D4D-8C3D-4B8C1A1F0001}.Release|Any CPU.Build.0 = Release|Any CPU
+  {B2B2A001-7EAA-4D4D-8C3D-4B8C1A1F0002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {B2B2A001-7EAA-4D4D-8C3D-4B8C1A1F0002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+  {B2B2A001-7EAA-4D4D-8C3D-4B8C1A1F0002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+  {B2B2A001-7EAA-4D4D-8C3D-4B8C1A1F0002}.Release|Any CPU.Build.0 = Release|Any CPU
+ EndGlobalSection
+EndGlobal

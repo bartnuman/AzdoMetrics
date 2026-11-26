@@ -1,0 +1,2 @@
+namespace AzdoQualityMetrics.Models;
+public sealed class WorkItemRecord { public int Id { get; set; } public string Title { get; set; } = ""; public DateTime? CreatedDate { get; set; } public string AreaPath { get; set; } = ""; public string WorkItemType { get; set; } = ""; public double? Effort { get; set; } public DateTime? DoneDate { get; set; } public string QualificationMode { get; set; } = ""; }
